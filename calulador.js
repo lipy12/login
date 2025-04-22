@@ -16,3 +16,14 @@ function dividir() {
     const Resultado = v1 / v2;
     document.getElementById("Resultado").innerText = `Resultado ${Resultado}`;
 }
+function vezes() {
+  const v1 = Number(document.getElementById("valor1").value);
+  const v2 = Number(document.getElementById("valor2").value);
+  const Resultado = v1 * v2;
+  document.getElementById("Resultado").innerText = `Resultado ${Resultado}`;
+}
+function limpar() {
+  document.getElementById("valor1").value = "";
+  document.getElementById("valor2").value = "";
+  document.getElementById("Resultado").innerText = "Resultado";
+}
